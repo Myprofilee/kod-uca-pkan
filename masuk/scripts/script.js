@@ -52,7 +52,7 @@ const container = document.querySelector(".container");
         const a = Bahasa[bahasa].landing
           , e = document.createElement("main");
         e.classList.add("Landing"),
-        e.innerHTML = `\n            <h1 class="judul">Blogandre</h1>\n            <select name="bahasa" data-option="bahasa">\n                <option value="">Language</option>\n                <option value="indonesia">Bahasa Indonesia</option>\n                <option value="english">English</option>\n            </select>\n            <p class="deskripsi">${a.desc}</p>\n            <button class="google" data-button="login-google"><i class="fa-brands fa-google"></i> ${a.google}</button>\n                        <button class="email" data-button="login-email"><i class="fa-regular fa-envelope"></i> ${a.email}</button>\n        `,
+        e.innerHTML = `\n            <h1 class="judul">Blogandre</h1>\n            <select name="bahasa" data-option="bahasa">\n                <option value="">Language</option>\n                <option value="indonesia">Bahasa Indonesia</option>\n                <option value="english">English</option>\n            </select>\n            <p class="deskripsi">${a.desc}</p>\n            <button class="google" style="display:none;" data-button="login-google"><i class="fa-brands fa-google"></i> ${a.google}</button>\n                        <button class="email" data-button="login-email"><i class="fa-regular fa-envelope"></i> ${a.email}</button>\n        `,
         container.innerHTML = "",
         container.appendChild(e);
         const o = e.querySelector('[data-option="bahasa"]');
@@ -65,7 +65,7 @@ const container = document.querySelector(".container");
 
           , c = e.querySelector("[data-button='login-email']");
         t.onclick = (()=>{
-            t.innerHTML = '<i class="fa-brands fa-google"></i> Loading',
+            t.innerHTML = '<i class="fa-brands fa-google" style="display:none;"></i> Loading',
             c.style.visibility = "hidden",
             l.style.visibility = "hidden",
             auth.signInWithRedirect(new firebase.auth.GoogleAuthProvider)
