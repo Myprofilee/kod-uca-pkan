@@ -7,7 +7,7 @@
         element.classList.add("Dashboard");
         element.innerHTML = (`
             <header class="header">
-                <h1 class="judul">Blogandre</h1>
+                <h1 class="judul">Maca</h1>
                 <select name="bahasa" data-option="bahasa">
                     <option value="">Lang</option>
                     <option value="indonesia">ID</option>
@@ -19,6 +19,7 @@
                     <i class="fa-light fa-gear"></i>
                 </button>
             </header>
+            
             <main class="main">
                 <div class="jumlah-kartu">
                     <span><b>- Loading -</b></span>

@@ -1,12 +1,12 @@
 const firebaseConfig = {
-  apiKey: "AIzaSyCqpXUELVk5i-1pqeayKNBTPKAud4b2Y1Q",
-  authDomain: "blogandreid.firebaseapp.com",
-  databaseURL: "https://blogandreid-default-rtdb.firebaseio.com",
-  projectId: "blogandreid",
-  storageBucket: "blogandreid.appspot.com",
-  messagingSenderId: "440115998572",
-  appId: "1:440115998572:web:609f9fafd49fb778becd49",
-  measurementId: "G-B94GF2WP68"
+  apiKey: "AIzaSyBe7G6rFovAklTKNTmFb1TSogsiYDy_WO4",
+  authDomain: "andrepid.firebaseapp.com",
+  databaseURL: "https://andrepid-default-rtdb.firebaseio.com",
+  projectId: "andrepid",
+  storageBucket: "andrepid.appspot.com",
+  messagingSenderId: "475106414273",
+  appId: "1:475106414273:web:5921db06c2580738724e40",
+  measurementId: "G-HTMHQWX8B6"
 };
 const app = firebase.initializeApp(firebaseConfig);
 const rdb = firebase.database();

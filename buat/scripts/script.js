@@ -21,7 +21,7 @@
             <button data-button="kembali-bikin">
                 <i class="fa-solid fa-chevron-left"></i>
             </button>
-            <h3 class="judul">${lang.act} | Blogandre</h3>
+            <h3 class="judul">${lang.act} | Maca</h3>
         </header>
         <main class="main">
             <div class="form">
